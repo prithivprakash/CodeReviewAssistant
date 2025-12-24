@@ -110,23 +110,3 @@ Authentication & usage limits
 
 License
 MIT
-
-yaml
-Copy code
-
-This README is:
-- Honest
-- Not over-claiming
-- Recruiter-friendly
-- Leaves room for growth
-
----
-
-## Commit and push README
-
-From repo root:
-
-```bash
-git add README.md
-git commit -m "Add initial README with setup and project overview"
-git push
