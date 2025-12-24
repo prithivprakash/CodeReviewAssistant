@@ -87,22 +87,22 @@ npm install
 npm run dev
 Frontend runs on http://localhost:3000.
 ```
+---
 Environment Variables
 API keys are not committed.
 Use .env.example to configure:
 
-Default LLM provider
+- Default LLM provider
+- Provider-specific API keys
 
-Provider-specific API keys
+Future Improvements: 
+ - Structured JSON output from backend
 
-Future Improvements
-Structured JSON output from backend
+ - Rich UI rendering for sections and code blocks
 
-Rich UI rendering for sections and code blocks
+ - More static analysis per language
 
-More static analysis per language
-
-Authentication & usage limits
+ - Authentication & usage limits
 
 License
 MIT
