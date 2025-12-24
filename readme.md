@@ -43,26 +43,24 @@ The project is built as a **full-stack application** with:
 
 ## Project Structure
 
-.
-├── backend/
-│ ├── main.py
-│ ├── llm_factory.py
-│ ├── python_analyzer.py
-│ ├── requirements.txt
-│ └── .env.example
-│
-├── frontend/
-│ ├── app/
-│ ├── lib/
-│ ├── public/
-│ ├── package.json
-│ └── next.config.ts
-│
-├── .gitignore
-└── README.md
-
-yaml
-Copy code
+```
+├── ├── backend/
+├── │   ├── main.py
+├── │   ├── llm_factory.py
+├── │   ├── python_analyzer.py
+├── │   ├── requirements.txt
+├── │   └── .env.example
+├── │
+├── ├── frontend/
+├── │   ├── app/
+├── │   ├── lib/
+├── │   ├── public/
+├── │   ├── package.json
+├── │   └── next.config.ts
+├── │
+├── ├── .gitignore
+└── └── README.md
+```
 
 ---
 
@@ -70,7 +68,7 @@ Copy code
 
 ### Backend
 
-```bash
+```
 cd backend
 python -m venv venv
 venv\Scripts\activate   # Windows
@@ -78,19 +76,17 @@ source venv/bin/activate # Linux or MacOS
 pip install -r requirements.txt
 Create a .env file based on .env.example, then run:
 
-bash
-Copy code
 uvicorn main:app --reload
 Backend runs on http://127.0.0.1:8000.
+```
 
-Frontend
-bash
-Copy code
+### Frontend
+```
 cd frontend
 npm install
 npm run dev
 Frontend runs on http://localhost:3000.
-
+```
 Environment Variables
 API keys are not committed.
 Use .env.example to configure:
